@@ -1,0 +1,47 @@
+#counter-part{
+    margin-top: 230px;
+    .round{
+        width: 100%;
+        border-radius: 150px;
+        background-image: linear-gradient(45deg, #08bbf6 0%, #6122ef 63%);
+        overflow: hidden;
+        .item{
+            text-align: center;
+            padding: 50px 0;
+            position: relative;
+            i{
+                font-size: 40px;
+                margin-bottom: 10px;
+                color: rgba(0, 0, 0, 0.5);
+            }
+             h2 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 36px;
+                font-weight: 600;
+                color: #fff;
+                margin-bottom: 10px;
+              }
+               h3 {
+                font-family: 'Josefin Sans', sans-serif;
+                font-size: 18px;
+                font-weight: 400;
+                color: #fff;
+                margin-bottom: 20px;
+              }
+              &::after{
+                  width: 50%;
+                  height: 3px;
+                  background: rgba(255, 255, 255, 0.11);
+                  position: absolute;
+                  bottom:40px;
+                  left:50%;
+                  content: "";
+                  transform: translateX(-50%);
+                  transition: .4s;
+              }
+              &:hover::after{
+                  width: 70%;
+              }
+        }
+    }
+}

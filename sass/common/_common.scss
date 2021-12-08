@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.title {
+    position: relative;
+     h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 90px;
+        font-weight: 700;
+        color: #564a73;
+        opacity: .2;
+      }
+    h3 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 32px;
+        font-weight: 600;
+        position: absolute;
+        top: 42px;
+        left: 0;
+        color: #1c0e3e;
+      }
+      
+  }

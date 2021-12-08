@@ -1,0 +1,104 @@
+#about-part{
+    position: relative;
+    
+    .round {
+        width: 30px;
+        height: 30px;
+        background: #e02d81;
+      }
+     .round1 {
+        width: 30px;
+        height: 30px;
+        background: #12a8f6;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        left: 700px !important;
+        border-radius: 5px;
+        top: 500px !important;
+      }
+       .round:nth-child(5) {
+        width: 30px;
+        height: 30px;
+        background: #12a8f6;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        left: 200px !important;
+        border-radius: 5px;
+        top: 500px !important;
+      }
+      
+       .round:first-child {
+        left: 500px !important;
+        top: 400px !important;
+      }
+      
+     .round:nth-child(3) {
+        left: 300px !important;
+        top: 300px !important;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        background: #d046f2;
+      }
+      
+      .round:nth-child(2) {
+        left: 300px !important;
+        top: 300px !important;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        background: #d046f2;
+      }
+      
+      .round:nth-child(6) {
+        width: 0;
+        height: 0;
+        left: 1000px !important;
+        top: 400px !important;
+      }
+      
+      .round:nth-child(4) {
+        left: 900px !important;
+        top: 300px !important;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+        background: #6046f2;
+      }
+      
+      
+   .left{
+       img{
+           margin-left: -50px;
+       }
+   }
+    .right{
+      .title{
+        margin-top: 220px;
+      }
+         p {
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 20px;
+            font-weight: 400;
+            color: #1c0e3e;
+            margin-bottom: 25px;
+            line-height: 30px;
+            width: 96%;
+          }
+          li {
+              &:first-child{
+                  margin-left: -35px;
+              }
+            display: inline-block;
+            margin-left: 10px;
+             i {
+                width: 34px;
+                height: 34px;
+                background: #5f24ef;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 34px;
+                color: #fff;
+                transition: .4s;
+
+              }
+              &:hover i{
+                background: #1c0e3e;
+              }
+              
+          }
+          
+    }
+}

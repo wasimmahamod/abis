@@ -1,0 +1,32 @@
+.navbar{
+    position: relative;
+    z-index: 9999;
+    ul{
+        
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60%;
+        background: #1c0e3e;
+        padding: 20px 0px;
+        border-bottom-left-radius: 50px;
+        padding-left: 50px;
+        li{
+            margin: 0 15px;
+            a{
+            
+            display: inline-block;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            transition: .4s;
+            cursor: pointer;
+            color: #fff !important;
+            &:hover{
+                color:rgba(255, 255, 255, 0.6) !important;
+            }
+            }
+        }
+
+    }
+}

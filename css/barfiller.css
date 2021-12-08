@@ -1,0 +1,66 @@
+body {
+  font-family: Arial;
+  background: #eee;
+}
+
+.barfiller {
+  width: 90%;
+  height: 18px;
+  background: #000;
+  border: 4px solid #000;
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 20px;
+  box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
+  -moz-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, .5);
+}
+
+.barfiller .fill {
+  display: block;
+  position: relative;
+  width: 0px;
+  height: 100%;
+  z-index: 1;
+  border-radius: 20px;
+  background: #08baf6!important;
+  position: relative;
+}
+
+.barfiller .fill::after {
+  position: absolute;
+  right: 0;
+  top: -9px;
+  background: #fff;
+  width: 6px;
+  height: 30px;
+  content: "";
+}
+
+.barfiller .tipWrap {
+  display: none;
+}
+
+.barfiller .tip {
+  margin-top: -30px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 600;
+  padding: 2px 4px;
+  font-size: 18px;
+  color: #fff;
+  left: 95% !important;
+  position: absolute;
+  z-index: 2;
+
+}
+
+/* .barfiller .tip:after {
+  border: solid;
+  border-color: rgba(0, 0, 0, .8) transparent;
+  border-width: 6px 6px 0 6px;
+  content: "";
+  display: block;
+  position: absolute;
+  left: 9px;
+  top: 100%;
+  z-index: 9
+} */

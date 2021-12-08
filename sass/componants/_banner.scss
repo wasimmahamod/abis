@@ -1,0 +1,150 @@
+#banner-part{
+    position: relative;
+    .img{
+        position: absolute;
+        top:-250px;
+        right:0;
+        z-index: -1;
+        .man{
+            position: absolute;
+            top:57px;
+            right:0;
+        }
+    }
+    .shape {
+        position: absolute;
+        top: 136px;
+        left: 0;
+      }
+      h3{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 30px;
+        font-weight: 400;
+        color: #5f24ef;
+        margin-top: 200px;
+        margin-bottom: 40px;
+      }
+      h1{
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 80px;
+        font-weight: 700;
+        color: #1c0e3e;
+        margin-bottom: 20px;
+      }
+      h1 span {
+        color: #5f24ef;
+      }
+      h4 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 43px;
+        font-weight: 700;
+        color: #1c0e3e;
+        margin-bottom: 30px;
+      }
+      h2 {
+        font-family: 'Josefin Sans', sans-serif;
+        font-size: 24px;
+        font-weight: 400;
+        color: #1c0e3e;
+        margin-bottom: 30px;
+      }
+     .buttom{
+        .ss {
+            background: #5f24ef;
+            padding: 15px 25px;
+            display: inline-block;
+            position: relative;
+            transition: .4s;
+            z-index: 1;
+            color: #fff;
+            border-radius: 6px 6px 25px 6px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            &::after {
+                width: 80%;
+                height: 100%;
+                background: #4901ff;
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: '';
+                clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+                transition: .4s;
+                z-index: -1;
+                border-radius: 6px 6px 25px 6px;
+              }
+            &::before {
+                width: 90%;
+                height: 100%;
+                background: #501ecf;
+                position: absolute;
+                top: 0;
+                left: 0;
+                content: '';
+                clip-path: polygon(0 0, 100% 0, 70% 100%, 0% 100%);
+                transition: .4s;
+                z-index: -1;
+                border-radius: 6px 6px 25px 6px;
+              }
+              &:hover::after{
+                width: 100%;
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+              }
+              &:hover::before{
+                width: 100%;
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+              }
+          }
+          .sec{
+            background: #1c0e3e;
+            padding: 15px 35px;
+            display: inline-block;
+            position: relative;
+            transition: .4s;
+            z-index: 1;
+            color: #fff;
+            background: #363434;
+            font-family: 'Josefin Sans', sans-serif;
+            font-size: 18px;
+            font-weight: 400;
+            margin-left: 15px;
+            border-radius: 6px 6px 25px 6px;
+            &::after {
+              width: 80%;
+              height: 100%;
+             background: #100822;
+              position: absolute;
+              top: 0;
+              right: 0 !important;
+              content: '';
+              z-index: -1;
+              clip-path: polygon(19% 0, 100% 0, 100% 100%, 0% 100%);
+              transition: .4s;
+              border-radius: 6px 6px 25px 6px;
+              }
+            &::before {
+              width: 90%;
+              height: 100%;
+              background: rgba(14, 14, 14, 0.6);
+              position: absolute;
+              top: 0;
+              right: 0;
+              content: '';
+              clip-path: polygon(19% 0, 100% 0, 100% 100%, 0% 100%);
+              transition: .4s;
+              z-index: -1;
+              border-radius: 6px 6px 25px 6px;
+              }
+              &:hover::after{
+                width: 100%;
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+              }
+              &:hover::before{
+                width: 100%;
+                clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+              }
+          }
+          
+     }
+}
